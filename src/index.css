@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&family=Roboto+Condensed&display=swap');
+
+:root {
+    --primary-color: #9708CC;
+    --gray-color: #707070;
+    --black-color: #181717;
+    --white-color: white;
+}
+
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+
+body {
+    background-color: rgb(247, 245, 245);
+    font-family: 'Roboto Condensed', sans-serif;
+    background-image: linear-gradient(135deg, #ecf8fd 10%, #f2d5fd 100%);
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 1rem;
+}
